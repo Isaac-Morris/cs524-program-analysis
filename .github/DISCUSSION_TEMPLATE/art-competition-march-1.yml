@@ -1,0 +1,31 @@
+body:
+  - type: textarea
+    id: art
+    attributes:
+      label: Your work
+      description: "The Pain of Unskilled Effort"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Isaac Morris
+      description: 
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: 사용한 도구 Tool You Used
+      description: "Pencil and paper"
+    validations:
+      required: true
+  - type: textarea
+    id: long
+    attributes:
+      label: Description (about 3 sentences)
+      description: "A reflection on the Korean phrase you taught us in class (창의력은 노가다에서 나온다), and what it implies for choosing to do things the difficult way."
+      value: |
+        ...
+    validations:
+      required: true
