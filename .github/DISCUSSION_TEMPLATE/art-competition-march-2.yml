@@ -1,0 +1,35 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ** Upload your artwork and provide the following description. **
+  - type: textarea
+    id: art
+    attributes:
+      label: Your work
+      description: "Small Steps, Big Steps"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 이름 Your Name
+      description: "Isaac Morris"
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: 사용한 도구 Tool You Used
+      description: "Pen and Paper"
+    validations:
+      required: true
+  - type: textarea
+    id: long
+    attributes:
+      label: Description (about 3 sentences)
+      description: "This artwork represents the difference between big step operational semantics (the giant) and small step (the people). It demonstrates how each small step semantics represent each individual computation, and the different approaches of 'why?' vs 'so?'."
+      value: |
+        ...
+    validations:
+      required: true
