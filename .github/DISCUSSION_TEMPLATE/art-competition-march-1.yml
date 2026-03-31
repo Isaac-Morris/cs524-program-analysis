@@ -1,9 +1,10 @@
 body:
+- type: markdown
+    attributes:
+      value: |
+        ![The Pain of Unskilled Effort](IMG_4221.jpeg)
   - type: textarea
     id: art
-
-![The Pain of Unskilled Effort](IMG_4221.jpeg)
-    
     attributes:
       label: Your work
       description: "The Pain of Unskilled Effort"
