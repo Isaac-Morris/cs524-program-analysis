@@ -1,6 +1,9 @@
 body:
   - type: textarea
     id: art
+
+![The Pain of Unskilled Effort](.github/DISCUSSION_TEMPLATE/IMG_4221.jpeg)
+    
     attributes:
       label: Your work
       description: "The Pain of Unskilled Effort"
